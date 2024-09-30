@@ -1,0 +1,32 @@
+[project]
+name = "perovskites-mc-ml"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Zerin Yeasmin", email = "zerinyeasmin@iut-dhaka.com" }
+]
+dependencies = [
+    "tensorflow>=2.17.0",
+    "matplotlib>=3.9.2",
+    "scikit-learn>=1.5.2",
+    "seaborn>=0.13.2",
+    "pandas>=2.2.3",
+    "ipykernel>=6.29.5",
+    "openpyxl>=3.1.5",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/perovskites_mc_ml"]
