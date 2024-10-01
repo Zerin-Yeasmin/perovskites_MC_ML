@@ -30,6 +30,7 @@ google-pasta==0.2.0
 grpcio==1.66.2
 h5py==3.12.1
 idna==3.10
+imbalanced-learn==0.12.3
 ipykernel==6.29.5
 ipython==8.27.0
 jedi==0.19.1
@@ -91,3 +92,4 @@ wcwidth==0.2.13
 werkzeug==3.0.4
 wheel==0.44.0
 wrapt==1.16.0
+xgboost==2.1.1
