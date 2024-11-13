@@ -51,9 +51,13 @@ h5py==3.12.1
     # via keras
     # via tensorflow
 idna==3.10
+<<<<<<< HEAD
     # via requests
 imbalanced-learn==0.12.3
     # via perovskites-mc-ml
+=======
+imbalanced-learn==0.12.3
+>>>>>>> master
 ipykernel==6.29.5
     # via perovskites-mc-ml
 ipython==8.27.0
@@ -219,6 +223,10 @@ werkzeug==3.0.4
 wheel==0.44.0
     # via astunparse
 wrapt==1.16.0
+<<<<<<< HEAD
     # via tensorflow
 xgboost==2.1.1
     # via perovskites-mc-ml
+=======
+xgboost==2.1.1
+>>>>>>> master
