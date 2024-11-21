@@ -3,7 +3,8 @@ name = "perovskites-mc-ml"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
-    { name = "Zerin Yeasmin", email = "zerinyeasmin@iut-dhaka.com" }
+    { name = "Omar Faruk", email = "omarfaruk20@iut-dhaka.edu" }
+    { name = "Zerin Yeasmin", email = "zerinyeasmin@iut-dhaka.edu" }
 ]
 dependencies = [
     "tensorflow>=2.17.0",
